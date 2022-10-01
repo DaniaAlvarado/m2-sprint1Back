@@ -1,0 +1,53 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Josefa",
+      "phone": "123",
+      "password": "abc",
+      "photo": "https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg",
+      "connected": false,
+      "phrase": "books"
+    },
+    {
+      "id": 2,
+      "name": "Ingrid",
+      "phone": "456",
+      "password": "def",
+      "photo": "https://cdnb.20m.es/sites/112/2019/04/cara6.jpg",
+      "connected": false,
+      "phrase": "cooking"
+    },
+    {
+      "name": "Carlos",
+      "phone": "789",
+      "password": "hij",
+      "photo": "https://cdnb.20m.es/sites/112/2019/04/cara75.jpg",
+      "connected": false,
+      "phrase": "soccer",
+      "id": 3
+    }
+  ],
+  "messages": [
+    {
+      "idUser1": 1,
+      "idUser2": 2,
+      "conversation": [
+        {
+          "sendBy": 1,
+          "date": "27/09/22",
+          "hour": "5:05 pm",
+          "message": "hola, como estas",
+          "read": true
+        },
+        {
+          "sendBy": 2,
+          "date": "27/09/22",
+          "hour": "5:07 pm",
+          "message": "hola, bien y tu",
+          "read": false
+        }
+      ]
+    }
+  ]
+}
