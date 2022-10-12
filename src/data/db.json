@@ -48,6 +48,26 @@
           "read": false
         }
       ]
+    },
+    {
+      "idUser1": 2,
+      "idUser2": 3,
+      "conversation": [
+        {
+          "sendBy": 2,
+          "date": "5/10/22",
+          "hour": "9:05 pm",
+          "message": "hola, como te encuentras",
+          "read": true
+        },
+        {
+          "sendBy": 3,
+          "date": "5/10/22",
+          "hour": "9:15 pm",
+          "message": "hola, muy bien y tu",
+          "read": false
+        }
+      ]
     }
   ]
 }
